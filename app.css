@@ -4,12 +4,12 @@ p {
 
 .hero-text {
   font-family: fantasy;
-  color: rgb(17, 227, 122);
+  color: rgb(230, 111, 15);
   background-color: rgb(194, 18, 18);
 }
 
 body {
-  background-color: rgb(169, 205, 24);
+  background-color: rgb(22, 183, 227);
   scroll-behavior: smooth;
 }
 
