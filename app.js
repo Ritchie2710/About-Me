@@ -88,40 +88,51 @@ function quiz() {
   let question = prompt("Which number in my top ten is a water falls at Platres pick between 1 and 10 ")
 if (question.toLowerCase() = "9") {
 alert("Your right its a beautiful waterfall in cyrpus ")
-}  else if (question.toLowerCase() === "1") {
-  alert(" too low try again!!"); 
-} else if (question.toLowerCase() === "2") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "3") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "5") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "6") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "7") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "8") {
-  alert("too low try again!!");
-} else if (question.toLowerCase() === "10") {
-  alert("too high try again!!");
+
+let answer = 9;
+let number = prompt("guess a number between 1-10");
+for (let i = 1; i <=8; i++) {
+  if (number > answer) {
+    alert("too high");
+    number = prompt("guess again");
+   } else if (number < answer) {
+      alert("too low!");
+      number = propmt('guess again!');
+    } else if (parseInt(number) === answer) {
+        alert("that's right!!!")
+      }
+
+}
+
+
+// }  else if (question.toLowerCase() === "1") {
+//   alert(" too low try again!!"); 
+// } else if (question.toLowerCase() === "2") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "3") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "5") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "6") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "7") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "8") {
+//   alert("too low try again!!");
+// } else if (question.toLowerCase() === "10") {
+//   alert("too high try again!!");
 }
 
 let movie = prompt("what are some of my favourite films?")
 if (question.toLowerCase() = "Jurassic park") {
-  alert("Correct t ")
-  }  else if (question.toLowerCase() === "1") {
-    if (question.toLowerCase() = "9") {
-      alert("Your right its a beautiful waterfall in cyrpus ")
-      }  else if (question.toLowerCase() === "1") {
-        if (question.toLowerCase() = "9") {
-          alert("Your right its a beautiful waterfall in cyrpus ")
-          }  else if (question.toLowerCase() === "1") {
-            if (question.toLowerCase() = "9") {
-              alert("Your right its a beautiful waterfall in cyrpus ")
-              }  else if (question.toLowerCase() === "1") {
-
+  alert("Correct this is one of my favouriet films ")
+}  else if (question.toLowerCase() === "Gladiator") {
+    alert(" Correct this is one of my favouriet films ")
+}  else if (question.toLowerCase() === "John Wick") {
+  alert(" Correct this is one of my favouriet films ")
+}
 
 
 }
