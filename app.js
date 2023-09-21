@@ -54,6 +54,7 @@ function quiz() {
 		}
 	}
 
+<<<<<<< HEAD
 	// }  else if (question.toLowerCase() === "1") {
 	//   alert(" too low try again!!");
 	// } else if (question.toLowerCase() === "2") {
@@ -82,3 +83,7 @@ function quiz() {
 		alert(" Correct this is one of my favouriet films ");
 	}
 }
+=======
+ 
+// }
+>>>>>>> 35a5db9 (udpate)
